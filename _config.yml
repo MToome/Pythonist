@@ -55,9 +55,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Marek Toome"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "I like to learn new things.In It it is always needed to develop oneself and I realy like solving how to write something to get the code to work."
   links:
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
