@@ -65,6 +65,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/MToome?tab=repositories"
+    - label: "Gmail"
+      icon: "fab fa-fw fa-gmail"
+      url: "weirdmarctv@gmail.com"
 
 footer:
   links:
