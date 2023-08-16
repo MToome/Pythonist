@@ -1,11 +1,13 @@
 ---
-title: "Basic Python"
+permalink: /postitused/
+title: "Python põhi teadmised"
 last_modified_at: 2023-08-14
 categories:
   - Blog
 tags:
   - Begginer
   - Project
+
 ---
 
 # Kommentaar

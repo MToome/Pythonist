@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Marek Toome"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I like to learn new things.In It it is always needed to develop oneself and I like writing code and solving code problems."
+  bio    : "I like to learn new things.In IT it is always needed to develop oneself and I like writing code and solving code problems."
   links:
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
