@@ -1,7 +1,7 @@
 main:
   - title: "Posts"
     url: /posts/
-  - title: "Postituseg"
+  - title: "Postitused"
     url: /postitused/
   - title: "Categories"
     url: /categories/

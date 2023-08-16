@@ -90,7 +90,7 @@ defaults:
   # _postitused
   - scope:
       path: "_postitused"
-      type: posts
+      type: postitused
     values:
       layout: single
       author_profile: true
