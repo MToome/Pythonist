@@ -1,8 +1,6 @@
 main:
   - title: "Posts"
     url: /posts/
-  - title: "Postitused"
-    url: /postitused/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
