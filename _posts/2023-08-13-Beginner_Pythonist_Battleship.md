@@ -2,7 +2,7 @@
 title: "Beginner Pythonist # Battleship"
 last_modified_at: 2023-08-12
 categories:
-  - Blog
+  - Posts
 tags:
   - Begginer
   - Project
