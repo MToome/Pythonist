@@ -1,5 +1,4 @@
 ---
-permalink: /postitused/Tähed ja numbrid arvutis
 title: "Tähed ja numbrid arvutis"
 last_modified_at: 2023-08-16
 categories:
