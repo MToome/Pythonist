@@ -111,7 +111,7 @@ print(32 < 1)
 
 ##### List
 Hoiustades mitut väärtust muutujas(variable). Listide puhul kasutatakse nurksulgusid []. 
-Pythonis on 4 erinevat sisse ehitatud andme tüübid milles hoiustatakse andmete kogumit, teised on tuples, set ja Dictonary.
+Pythonis on 4 erinevat sisse ehitatud andme hoiustajat, teised on tuples, set ja Dictonary.
 List on sorteeritud, muudetav ja võivad olla koopiaid väärtustest. Sorteeritud tähendab, et väärtusid on võimalik leid indexiga. Index on asukoha number. Python alustab lugemist nullist. Indexi abil on võimalik muutujast(variable) välja võtta kindel väärtus ilma andmekogu printimata.
 ```python
 nimekiri = ["leib", "sai", "tomat"]
