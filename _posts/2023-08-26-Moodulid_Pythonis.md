@@ -16,11 +16,11 @@ Pythonis on andme pakkid mida kutsutakse mooduliteks. Moodulites on  Pytoni mä�
 Lihtne näide moodulist on arvutamine, liitmine ja lahutamine.
 
 ```python
-# defineerime mis saab kui kutsume liitmine
+# defineerib mis saab kui kutsub liitmine
 def liitmine(a, b):
     return a + b
 
-# defineerime mis saab kui kutsume lahutamine
+# defineerib mis saab kui kutsub lahutamine
 def lahutamine(a, b):
     return a - b
 ```
@@ -54,25 +54,39 @@ Kirjutades mitu sada rida koodi on hea kui saab kuskil trükkimis vaeva vähenda
 ### Sisseehitatud moodulid
 
 Pythonis on väga palju moodule mis on sisseehitatud pythonisse. 
-Näiteks on olemas calc moodul. 
+Näiteks on olemas _math_ moodul. 
 
 ```python
-# Impordime calc mooduli
-import calc
+# Impordib math mooduli
+import math
 
-# Väljund 3
-print(calc.add(1, 2))
+# Kutsub math.pi, et teada saada π väärtus.
+print(math.pi)
+# Väljund 3.141592653589793
 ```
 
+Sisseehitatud moodulite nimekirja saab kui kirjutada _help('modules')_. See annab terve nimekirja moodulitest mis on saadaval. Ühtlasi saab teada ka moodulite kohta lisa infot nii _help('math')_, väljundiks on nimekiri käsklustest ja kirjeldus mida need teevad.
+
+### Pythoni välised moodulid
+
+Pythoni üks populaarsuse põhjused on ka selles, et pythoni ühiskond loob ise mooduleid mida teised saavad kasutada. Nende moodulite saamiseks on vaja need kõigepealt endale installida ning siis saab neid kasutada nagu sisseehitatud mooduleid.
+Moodul tuleb installida terminalis.
+```console
+pip install matplotlip
+```
+Peale seda saab seda importida.
+```python
+import matplotlip
+```
 ### Functsioonid moodulis
 
 Mooduli funtsioonide nimekirja saamiseks on vaja kasutada _dir()_ funktsiooni.
 
 ```python
-# Impordime mooduli
+# Impordib mooduli
 import math
 
-# Prindime funktsioonid nimekirja
+# Prindib funktsioonide nimekirja
 print(dir(math))
 
 """

@@ -1,0 +1,21 @@
+---
+title: "Python List"
+last_modified_at: 2023-08-16
+categories:
+  - Eesti, Estonia
+tags:
+  - Begginer
+
+---
+
+
+##### List
+Hoiustades mitut väärtust muutujas(variable). Listide puhul kasutatakse nurksulgusid []. 
+Pythonis on 4 erinevat sisse ehitatud andme tüübid milles hoiustatakse andmete kogumit, teised on tuples, set ja Dictonary.
+List on sorteeritud, muudetav ja võivad olla koopiaid väärtustest. Sorteeritud tähendab, et väärtusid on võimalik leid indexiga. Index on asukoha number. Python alustab lugemist nullist. Indexi abil on võimalik muutujast(variable) välja võtta kindel väärtus ilma andmekogu printimata.
+```python
+nimekiri = ["leib", "sai", "tomat"]
+# Index 0 on leib, 1 on sai ja 2 on tomat
+print(type(nimekiri))
+# Väljund <class 'tuple'>
+```
