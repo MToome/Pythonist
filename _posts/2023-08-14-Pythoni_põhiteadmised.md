@@ -1,5 +1,5 @@
 ---
-title: "Python põhi teadmised"
+title: "Python põhiteadmised"
 last_modified_at: 2023-08-16
 categories:
   - Eesti, Estonia
@@ -115,3 +115,26 @@ print(type(10 000.1))
 # Väljund <class 'float'>
 ```
 
+# Tehted arvudega
+
+Märkide tähendused:
++   liitmine
+-   lahutamine
+/   jagamine
+*   korrutamine
+**  astendamine
+%   jäägi leidmine
+//  täisosa leidmine
+<   väiksem kui
+<=  väiksem või võrdne kui
+>   suurem kui
+>=  suurem või võrdne
+==  võrdne
+!=  ei ole võrdne
+
+round(x , n) x number ümartatakse n koma kohani
+```python
+print(round(11,98765, 2))
+# 11,99 väljund
+# ümardati 2 kohta peale koma
+```
