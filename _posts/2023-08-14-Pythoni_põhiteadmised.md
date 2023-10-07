@@ -80,22 +80,29 @@ nimi = "Toomas"
 Tüüpe saab küsida tõlgi käest:
 ```python
 print(4)
-# Väljund 4
+# Väljund: 4
 # Tüübi teada saamiseks tuleb kirjutada:
 print(type(4))
-# Väljund <class 'int'>
+# Väljund: <class 'int'>
 print(type("Hello"))
-# Väljund <class 'str'>
+# Väljund: <class 'str'>
 ```
 ##### String ehk Str
 Tähed ja laused on string(str) kuna on tähtede rida(string of letters). String tunneb ära sellest, et on juttumärkides ' ' või " "(ei ole vahet kumba juttumärki kasutad pythoni kirjutamisel peaasi, et kasutada kogu aeg samu ja teisi saad kasutada lausetes, et programm ei loeks seda). Numbrid ja märgid mis on juttumärkides on samuti str.
 ```python
 print("Mati ütles:'Tere tulemast'")
-# Väljund Mati ütles: 'Tere tulemast', kasutasin topelt juttumärke stringi tegemiseks ja lause jaoks ühekordseid
+# Väljund: Mati ütles: 'Tere tulemast', kasutasin topelt juttumärke stringi tegemiseks ja lause jaoks ühekordseid
 print(type("Hello World"))
-# Väljund <class 'str'>
+# Väljund: <class 'str'>
 print(type("12"))
-# Väljund <class 'str'>, kuna on juttu märkides
+# Väljund: <class 'str'>, kuna on juttu märkides
+```
+
+Vahest tuleb ette, et lauses on nii  ' ' kui ka " " , selleks, et python korralikkult selle kuvaks võib kasutada kolmekordseid juttumärke """ """ või ''' '''.
+
+```python
+print("""Tom: "It's a nice day outside" """)
+# Väljund: Tom: "It's a nice day outside" 
 ```
 
 ##### Integer ehk int
@@ -106,13 +113,13 @@ Floating point ehk float on number koma kohaga.
 
 ```python
 print(type(5))
-# Väljund <class 'int'>
+# Väljund: <class 'int'>
 print(type(10 000))
-# Väljund <class 'int'>
+# Väljund: <class 'int'>
 print(type(5.0))
-# Väljund <class 'float'>
+# Väljund: <class 'float'>
 print(type(10 000.1))
-# Väljund <class 'float'>
+# Väljund: <class 'float'>
 ```
 
 # Tehted arvudega
@@ -135,6 +142,6 @@ Märkide tähendused:
 round(x , n) x number ümartatakse n koma kohani
 ```python
 print(round(11,98765, 2))
-# 11,99 väljund
+# Väljund: 11,99 
 # ümardati 2 kohta peale koma
 ```

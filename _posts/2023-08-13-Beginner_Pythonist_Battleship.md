@@ -1,6 +1,6 @@
 ---
 title: "Beginner Pythonist # Battleship"
-last_modified_at: 2023-08-12
+last_modified_at: 2023-08-13
 categories:
   - Posts
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "Tähed ja numbrid arvutis"
-last_modified_at: 2023-08-16
+last_modified_at: 2023-09-17
 categories:
   - Eesti, Estonia
 tags:
