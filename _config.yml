@@ -66,6 +66,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/MToome?tab=repositories"
+    - label: "Email"
+       icon: "fas fa-fw fa-envelope-square"
+       url: mailto:marektoome0@gmail.com
 
 
 footer:
