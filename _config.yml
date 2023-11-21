@@ -60,15 +60,15 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "I like to learn new things.In IT it is always needed to develop oneself and I like writing code and solving code problems."
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:marektoome0@gmail.com
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
     #  url: "https://"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/MToome?tab=repositories"
-    - label: "Email"
-       icon: "fas fa-fw fa-envelope-square"
-       url: mailto:marektoome0@gmail.com
 
 
 footer:
